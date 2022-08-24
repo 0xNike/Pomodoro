@@ -1,5 +1,5 @@
 {
-  "homepage": "https://0xnike.github.io/Pomodoro",
+  "homepage": "https://0xnike.github.io/Pomodoro/",
   "name": "react-typescript",
   "version": "1.0.0",
   "type": "module",
@@ -27,6 +27,7 @@
     "react-dom": "^18.2.0",
     "typescript": "^4.7.4",
     "typescript-language-server": "^0.11.2",
-    "vite": "^3.0.4"
+    "vite": "^3.0.4",
+    "gh-pages": "^4.0.0"
   }
 }
