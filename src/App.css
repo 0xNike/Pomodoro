@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Assistant";
+  src: url("./fonts/Assistant-VariableFont_wght.ttf");
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: "Assistant", Arial;
+}
+
+.pomo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1.5em 5em;
+  border-radius: 50px;
+  height: 35vh;
+  background: #A3D5FF;
+  box-shadow:  26px 26px 53px #8bb5d9,
+               -26px -26px 53px #bbf5ff;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: Arial;
+  background-color:#A3D5FF;
+}
+
+.taskInput {
+  background: none;
+  border-width: 0px 0px 1px 0px;
+  text-align: center;
+  font-size: 2em;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+.watchFace {
+  font-size: 5em;
+}
+
+button {
+  font-size: 0.8em;
+  padding: 0.5em 1.2em;
+  border: solid 0.1em #595F72;
+  background: none;
+}
+
+@media (max-width: 768px) {
+
+  .watchFace {
+    font-size: 3em;
+  }
+}

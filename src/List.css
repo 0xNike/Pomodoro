@@ -1,0 +1,28 @@
+.grp1 {
+  display: none;
+}
+
+#taskInput {
+  background: none;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #cfcece;
+  text-align: center;
+}
+
+::placeholder {
+  color: #e6e6e6;
+}
+
+input {
+  font-size: 2em;
+}
+
+.icons {
+  max-height: 1.5em;
+  margin: 0;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
