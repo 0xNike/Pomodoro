@@ -1,17 +1,7 @@
-## Running React on Repl.it
+## Pomodoro: Productivity app
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Check out the app [here](https://Pomodoro.0xnike.repl.co)
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+This is my own version of Pomodoro, a technique that helps people to be more productive at tasks. You can find out more about the technique [here](https://todoist.com/productivity-methods/pomodoro-technique)
 
-Using the two in conjunction is one of the fastest ways to build a web app.
-
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
-
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+This app was created on Replit with React and I'm currently still improving on it! :kissing: Please feel free to drop me feedbacks :+1:
