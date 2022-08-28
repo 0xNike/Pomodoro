@@ -18,7 +18,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 1.5em 5em;
+  padding: 1.5em 2em;
   border-radius: 50px;
   height: 35vh;
   background: #A3D5FF;
@@ -26,15 +26,18 @@ h1 {
                -26px -26px 53px #bbf5ff;
 }
 
+
 body {
   margin: 0px;
   text-align: center;
   font-family: Arial;
   background-color:#A3D5FF;
+  overflow: hidden;
 }
 
 .taskInput {
   background: none;
+  margin: 0em 1em;
   border-width: 0px 0px 1px 0px;
   text-align: center;
   font-size: 2em;
@@ -58,7 +61,27 @@ button {
 
 @media (max-width: 768px) {
 
+  .pomo {
+  width: 85vw;
+  border-radius: 50px;
+  padding: 1.5em 0.5em;
+  height: 35vh;
+  background: #A3D5FF;
+  box-shadow:  26px 26px 53px #8bb5d9,
+               -26px -26px 53px #bbf5ff;
+}
+
+  .taskInput {
+    font-size: 1.2em;
+    border-radius: 0;
+  }
+
   .watchFace {
     font-size: 3em;
   }
+
+  #disDuration {
+    font-size: 1.5em;
+  }
+  
 }
